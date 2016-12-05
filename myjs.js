@@ -104,7 +104,7 @@ $(document).ready(function(){
     };
     
     subBut.onclick = function() {
-        var title = "http://www.omdbapi.com/?t=" + inputMovie.value;
+        var title = "https://www.omdbapi.com/?t=" + inputMovie.value;
         botDiv.style.visibility = "visible";
         userImg.src = inputImg.value;
         unDiv.innerHTML = inputName.value;
