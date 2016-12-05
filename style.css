@@ -1,0 +1,66 @@
+#body {
+    margin:1vw;
+}
+
+::-webkit-input-placeholder {
+    color: #00F;
+}
+
+.user_input {
+    width: 40vw;
+    font: 0.5vh;
+    text-align: center;
+    border-style: solid;
+    border-color: #00F;
+}
+
+#input_movie {
+    width: 57vw;
+}
+
+#input_comment {
+    width: 98vw;
+}
+
+#sub_error {
+    color:#F00;
+}
+
+#submit_button {
+    visibility: hidden;
+}
+
+#bottom {
+    width: 70vw;
+    height: 20vh;
+    position: absolute;
+    left:10vw;
+    background-color: lightskyblue;
+    visibility: hidden;
+    padding: 5vw;
+}
+
+#user_img {
+    position:absolute;
+    top:-5vw;
+    left:-4vw;
+    width:8vw;
+    height:auto;
+}
+
+#poster {
+    position:absolute;
+    top:-5vw;
+    right:-4vw;
+    width:8vw;
+    height:auto;
+}
+
+#user_name {
+    position:absolute;
+    bottom:-2.5vh;
+    right:-5vw;
+    width:10vw;
+    height:5vh;
+    background-color: lightsalmon;
+}
